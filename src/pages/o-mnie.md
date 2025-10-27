@@ -1,5 +1,6 @@
 ---
 title: "O mnie"
+layout: ../layouts/Layout.astro
 ---
 
 **Cześć! Nazywam się Justyna i zajmuję się petsittingiem.**  

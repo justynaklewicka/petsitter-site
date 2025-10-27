@@ -1,5 +1,6 @@
 ---
 title: "Usługi"
+layout: ../layouts/Layout.astro
 ---
 
 - Pozwalam wchodzić na łóżko i kanapę
