@@ -18,17 +18,31 @@ collections:
         fields:
           - { label: "Tytuł", name: "title", widget: "string" }
           - { label: "Treść", name: "body", widget: "markdown" }
-          
-      - file: "src/pages/o-mnie.astro"
+
+      - file: "src/pages/o-mnie.md"
         label: "O mnie"
         name: "o-mnie"
         fields:
           - { label: "Tytuł", name: "title", widget: "string" }
           - { label: "Treść", name: "body", widget: "markdown" }
 
-      - file: "src/pages/uslugi.astro"
+      - file: "src/pages/uslugi.md"
         label: "Cennik i Usługi"
         name: "uslugi"
+        fields:
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
+
+      - file: "src/pages/galeria.md"
+        label: "Galeria"
+        name: "galeria"
+        fields:
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
+
+      - file: "src/pages/kontakt.md"
+        label: "Kontakt"
+        name: "kontakt"
         fields:
           - { label: "Tytuł", name: "title", widget: "string" }
           - { label: "Treść", name: "body", widget: "markdown" }

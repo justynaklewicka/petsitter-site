@@ -1,0 +1,5 @@
+---
+title: "Galeria"
+---
+
+Obrazy:

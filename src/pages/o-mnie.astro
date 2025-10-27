@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../layouts/Layout.astro";
+import { renderMarkdown } from "@astrojs/markdown-remark";
+import content from "./o-mnie.md";
+---
+
+<BaseLayout title={content.title}>
+  <h1>{content.title}</h1>
+  {renderMarkdown(content.body)}
+</BaseLayout>

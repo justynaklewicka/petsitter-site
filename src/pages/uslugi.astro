@@ -1,12 +1,10 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from "../layouts/Layout.astro";
+import { renderMarkdown } from "@astrojs/markdown-remark";
+import content from "./uslugi.md";
 ---
 
-<Layout title="Usługi i Cennik">
-  <h1>Usługi i Cennik</h1>
-  <ul>
-    <li>Spacer z psem – 30 zł / 30 min</li>
-    <li>Opieka dzienna – 80 zł / dzień</li>
-    <li>Hotelik – 120 zł / noc</li>
-  </ul>
-</Layout>
+<BaseLayout title={content.title}>
+  <h1>{content.title}</h1>
+  {renderMarkdown(content.body)}
+</BaseLayout>
