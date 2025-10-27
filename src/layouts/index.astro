@@ -1,0 +1,9 @@
+---
+import { renderMarkdown } from '@astrojs/markdown-remark';
+import content from './index.md';
+---
+
+<main>
+  <h1>{content.title}</h1>
+  {renderMarkdown(content.body)}
+</main>
