@@ -1,9 +1,11 @@
 ---
-import { renderMarkdown } from '@astrojs/markdown-remark';
+import Markdown from '@astro/markdown-remark';
 import content from './index.md';
 ---
 
 <main>
   <h1>{content.title}</h1>
-  {renderMarkdown(content.body)}
+  <Markdown>
+    {content}
+  </Markdown>
 </main>

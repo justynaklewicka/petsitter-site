@@ -1,10 +1,12 @@
 ---
 import BaseLayout from "../layouts/Layout.astro";
-import { renderMarkdown } from "@astrojs/markdown-remark";
+import Markdown from '@astro/markdown-remark';
 import content from "./kontakt.md";
 ---
 
 <BaseLayout title={content.title}>
   <h1>{content.title}</h1>
-  {renderMarkdown(content.body)}
+  <Markdown>
+    {content}
+  </Markdown>
 </BaseLayout>
