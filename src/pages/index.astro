@@ -1,8 +1,6 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Markdown from '@astrojs/markdown-remark';
+import content from './index.md';
 ---
 
-<Layout title="Witamy na stronie Przystanek Dundee!">
-  <h1>Witamy!</h1>
-  <p>Opieka nad zwierzętami w Twojej okolicy.</p>
-</Layout>
+<Markdown content={content.body} />
