@@ -2,7 +2,7 @@
 title: "Kontakt"
 layout: ../layouts/Layout.astro
 ---
-
+  
 # **Kontakt**  
 
 **e-mail:** justyna.klewicka@outlook.com  

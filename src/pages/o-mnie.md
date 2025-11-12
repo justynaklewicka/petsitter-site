@@ -2,8 +2,8 @@
 title: "O mnie"
 layout: ../layouts/Layout.astro
 ---
-
-**Cześć! Nazywam się Justyna i zajmuję się petsittingiem.**  
+  
+# **Cześć! Nazywam się Justyna i zajmuję się petsittingiem.**  
 Mam doświadczenie w opiece nad zwierzętami i oferuję usługi dopasowane do potrzeb Twojego pupila.
 
 - opieka u mnie w domu

@@ -3,4 +3,4 @@ title: "Galeria"
 layout: ../layouts/Layout.astro
 ---
 
-Obrazy:
+# **Galeria zwierząt pod moją opieką:**
