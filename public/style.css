@@ -88,27 +88,29 @@ footer {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
+  gap: 1.5rem;
   margin-top: 1.5rem;
 }
 
 .gallery figure {
   margin: 0;
-  background: transparent;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  text-align: center;
+  background: #fff;
 }
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 220px; 
+  object-fit: cover; 
   display: block;
 }
 
 .gallery figcaption {
-  padding: 0.5rem 0;
+  padding: 0.7rem;
+  text-align: center;
   font-size: 0.9rem;
   color: #444;
 }
+
 
