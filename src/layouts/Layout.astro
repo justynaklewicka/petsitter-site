@@ -22,11 +22,23 @@ const { title } = Astro.props;
 
     <main class="container">
       <slot />
+      {Astro.props.images && (
+        <div class="gallery">
+          {Astro.props.images.map(img => (
+            <figure>
+              <img src={img.src} alt={img.caption} />
+              {img.caption && <figcaption>{img.caption}</figcaption>}
+            </figure>
+          ))}
+        </div>
+      )}
+
     </main>
 
     <footer>
     	<div class="container">
-      		<p>© 2025 Sivoriel Design | kontakt: justyna.klewicka@outlook.com</p>
+      		<!-- <p><div class="footer-image"></div>  -->
+          © 2025 Sivoriel Design | kontakt: justyna.klewicka@outlook.com</p>
   		</div>
     </footer>
   </body>

@@ -22,12 +22,14 @@ Posiadam prawo jazdy i samochód, więc w razie potrzeby mogę przewieźć nim z
 Właściciel na czas opieki powinien dostarczyć wszystko, co będzie potrzebne zwierzęciu (np. książeczka zdrowia, karma, szelki, smycz, kocyk pachnący właścicielem, aktualne zaświadczenie o szczepieniu psa na wściekliznę).
 
 
-**Osiągnięcia:**
-Wstęp do życia i sportu - Joanna Michalska
-Posłuszeństwo, dogfitness - Klaudia Pudlarz, Aleksandra Grzelak
-Agility - Run4Fun
-Frisbee - Agnieszka Łosak, Łódź You Fly
-Nosework - CANIfornia Nosework Łódź 
+**Osiągnięcia:**  
+
+Treningi:
+- Wstęp do życia i sportu - Joanna Michalska  
+- Posłuszeństwo, dogfitness - Klaudia Pudlarz, Aleksandra Grzelak  
+- Agility - Run4Fun  
+- Frisbee - Agnieszka Łosak, Łódź You Fly  
+- Nosework - CANIfornia Nosework Łódź  
 
 Szkolenia stacjonarne:
 - 24-26.05.2013: I Ogólnopolski Zlot Tollerów - prowadzony przez Joannę Bohdziun (Dummy)

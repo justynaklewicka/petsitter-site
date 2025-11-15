@@ -3,7 +3,10 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background: #597ec9; 
+  background: #5e3608; 
+  background-image: url('/images/BG_noise5.png');
+  background-repeat: repeat;
+  background-size: 20%;
   color: #333;
 }
 
@@ -14,6 +17,16 @@ body {
   background-image: url("/images/header-bg.webp"); 
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-image {
+  width: 10%;
+  height: 10%;
+  aspect-ratio: 1 / 1;
+  background-image: url("/images/footer_logo.png"); 
+  background-size: 100%;
+  /*background-position: center;*/
   background-repeat: no-repeat;
 }
 
@@ -42,7 +55,7 @@ main {
 .container {
   max-width: 900px;
   margin: 0 auto;
-  background: #f5f5ed; 
+  background: #dbc897; 
   padding: 2em 2.5em 2.5em 2em;
   box-shadow: 0 0 15px rgba(0,0,0,0.05);
 }
@@ -70,3 +83,26 @@ footer {
     flex-wrap: wrap;
   }
 }
+
+/* --- GALERIA --- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.gallery figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  color: #444;
+}
+

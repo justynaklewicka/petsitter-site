@@ -38,6 +38,12 @@ collections:
         name: "galeria"
         fields:
           - { label: "Tytuł", name: "title", widget: "string" }
+          - label: "Zdjęcia"
+            name: "images"
+            widget: "list"
+            fields:
+              - { name: "src", label: "Zdjęcie", widget: "image" }
+              - { name: "caption", label: "Podpis", widget: "string", required: false }
           - { label: "Treść", name: "body", widget: "markdown" }
 
       - file: "src/pages/kontakt.md"
@@ -46,3 +52,4 @@ collections:
         fields:
           - { label: "Tytuł", name: "title", widget: "string" }
           - { label: "Treść", name: "body", widget: "markdown" }
+
