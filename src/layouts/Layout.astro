@@ -1,5 +1,8 @@
 ---
 const { title } = Astro.props;
+const props = Astro.props ?? {};
+const fm = props.frontmatter ?? props ?? {};
+const images = fm.images ?? [];
 ---
 
 <html lang="pl">
@@ -22,16 +25,16 @@ const { title } = Astro.props;
 
     <main class="container">
       <slot />
-      {Astro.props.images && (
+      {images && images.length ? (
         <div class="gallery">
-          {Astro.props.images.map(img => (
+          {images.map((img) => (
             <figure>
-              <img src={img.src} alt={img.caption} />
-              {img.caption && <figcaption>{img.caption}</figcaption>}
+              <img src={img.src} alt={img.caption ?? "zdjęcie"} loading="lazy" />
+              {img.caption ? <figcaption>{img.caption}</figcaption> : null}
             </figure>
           ))}
         </div>
-      )}
+      ) : null}
 
     </main>
 
