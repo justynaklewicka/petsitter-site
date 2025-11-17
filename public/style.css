@@ -32,17 +32,25 @@ body {
 
 /* --- MENU --- */
 nav {
-  background: #e3aa1d;
-  padding: 1em;
+  background: #5e3608;
+  /* background: -moz-linear-gradient(top, #5e3608 0%, #B76910 0%, #5E3608 100%); */
+  /* background: -webkit-linear-gradient(top, #5e3608 0%, #B76910 0%, #5E3608 100%); */
+  background: linear-gradient(to bottom, #5e3608 0%, #91530D 0%, #5E3608 100%);
+  padding: 1.5em;
   display: flex;
-  gap: 1em;
+  gap: 2em;
   justify-content: center;
+  /* box-shadow: inset 5px 5px 19px 0px rgba(234,178,145,0.76); */
 }
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #FFFFFF;
+  font-family: cursive;
   font-weight: bold;
+  /* text-transform: uppercase; */
+  font-size: 18px;
+  letter-spacing: 3.6px;
 }
 
 /* --- GŁÓWNA TREŚĆ --- */
