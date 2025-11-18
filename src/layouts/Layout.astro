@@ -69,5 +69,30 @@ const images = fm.images ?? [];
       </div>
     </footer>
     <br>
+	
+	<!-- scroll-to-top button -->
+    <button id="scrollToTopBtn" aria-label="Do góry" title="Powrót na górę">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="#216e4b" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="12" fill="white" />
+        <path d="M12 8l-6 6h12z" fill="#216e4b"/>
+      </svg>
+    </button>
+    <script>
+      // show/move button
+      document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('scrollToTopBtn');
+        window.addEventListener('scroll', function () {
+          if (window.scrollY > 200) {
+            btn.style.display = 'block';
+          } else {
+            btn.style.display = 'none';
+          }
+        });
+        btn.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+    </script>
+	
   </body>
 </html>
