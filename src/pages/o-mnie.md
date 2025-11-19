@@ -4,6 +4,8 @@ layout: ../layouts/Layout.astro
 ---
   
 # **Cześć! Nazywam się Justyna i zajmuję się petsittingiem.**  
+<center><img class="general_img" src="/images/about.jpg" width="80%" height=auto></center>
+
 Mam doświadczenie w opiece nad zwierzętami i oferuję usługi dopasowane do potrzeb Twojego pupila.
 
 - opieka u mnie w domu
@@ -13,25 +15,28 @@ Mam doświadczenie w opiece nad zwierzętami i oferuję usługi dopasowane do po
 
 Z zawodu jestem informatykiem, lecz od dzieciństwa moją największą pasją są zwierzęta. Mieszkam w Pabianicach koło Łodzi. W domu jest łagodna, wykastrowana suczka Dundee. Miała wielki wpływ na moje życie i to od niej pochodzi nazwa działalności.
 Moim pierwszym psem był mix yorka Tofik. Trafił do mnie, gdy miałam 9 lat i dożył 14,5 lat pomimo powiększonego mięśnia serca i opadania tchawicy. Na ile pozwalało jego zdrowie ćwiczyliśmy sztuczki oraz elementy tropienia, obedience i dogfitness. Był bardzo lękliwym i chorowitym psem, ponieważ urodził się w małej pseudohodowli. Nauczył mnie bardzo dużo.
+<center><img class="general_img" src="/images/toficzek.jpg" width="50%" height=auto></center>
 
-Dundee wzięłam po zakończeniu studiów i odejściu Tofika. Jest to suczka Nova Scotia Duck Tolling Retriever - Dundee, urodzona w 2017 r. Trenujemy razem psie sporty, głównie agility, frisbee, nosework i dogfitness. Jest inteligentna, łagodna i wrażliwa. Nie reaguje agresją ani do ludzi, ani do innych psów.
+Dundee wzięłam po zakończeniu studiów i odejściu Tofika. Jest to suczka Nova Scotia Duck Tolling Retriever - Dundee, urodzona w 2017 r. Trenujemy razem psie sporty, głównie agility, frisbee, nosework i dogfitness. Jest inteligentna, łagodna i wrażliwa. Nie reaguje agresją ani do ludzi, ani do innych psów. Bierzemy udział w wielu wydarzeniach stacjonarnych takich jak treningi, seminaria, obozy i zawody, oraz w internetowych kursach i webinarach. Poza tym lubimy chodzić na długie spacery na pola i do lasu. 
+<center><img class="general_img" src="/images/dunfree.jpg" width="50%" height=auto></center>
 
-Bierzemy udział w wielu wydarzeniach stacjonarnych takich jak treningi, seminaria, obozy i zawody, oraz w internetowych kursach i webinarach. Poza tym lubimy chodzić na długie spacery na pola i do lasu. Interesuję się też behawioryzmem zwierząt, ponieważ zależy mi na dobrym stanie zwierząt.
+Interesuję się też behawioryzmem zwierząt, ponieważ zależy mi na dobrym stanie zwierząt. Podczas psich treningów używam metod pozytywnych oraz lekkiej presji na podstawie psiej komunikacji. Także w kontakcie ze zwierzętami innych gatunków staram się postępować zgodnie z ich psychiką i potrzebami.
 
 Posiadam prawo jazdy i samochód, więc w razie potrzeby mogę przewieźć nim zwierzę.
-Właściciel na czas opieki powinien dostarczyć wszystko, co będzie potrzebne zwierzęciu (np. książeczka zdrowia, karma, szelki, smycz, kocyk pachnący właścicielem, aktualne zaświadczenie o szczepieniu psa na wściekliznę).
+Właściciel na czas opieki powinien dostarczyć wszystko, co będzie potrzebne zwierzęciu (np. książeczka zdrowia, karma, szelki, smycz, kocyk pachnący właścicielem, aktualne zaświadczenie o szczepieniu psa na wściekliznę).  
 
+<br><center><img class="general_img" src="/images/frizgility.jpg" width="60%" height=auto></center>
 
-**Osiągnięcia:**  
+## **Osiągnięcia:**  
 
-Treningi:
+**Treningi:**
 - Wstęp do życia i sportu - Joanna Michalska  
 - Posłuszeństwo, dogfitness - Klaudia Pudlarz, Aleksandra Grzelak  
 - Agility - Run4Fun  
 - Frisbee - Agnieszka Łosak, Łódź You Fly  
 - Nosework - CANIfornia Nosework Łódź  
 
-Szkolenia stacjonarne:
+**Szkolenia stacjonarne:**
 - 24-26.05.2013: I Ogólnopolski Zlot Tollerów - prowadzony przez Joannę Bohdziun (Dummy)
 - 01-02.03.2014: Seminarium "MOTYWACJA" z Jiri Scucka
 - 12-14.09.2014: II Ogólnopolski Zjazd Tollerów - prowadzony przez Joannę Hewelt (Obedience)
@@ -55,18 +60,55 @@ Szkolenia stacjonarne:
 - 02.07.2023: Warsztaty dogfrisbee z Julią Zaborowską
 - 21-24.08.2023: Obóz agility z Olgą Kwiecień
 
-Szkolenia online:
+**Szkolenia online:**
 - 08-10.2021: Grzeczne czekanie... i wszystko jasne! - Paula Gumińska
 - 04.04.2022-15.10.2022: Dogfrisbee Freestyle online - Julia Zaborowska
 - 07.11.2022-13.04.2023: Catch ratio - how to make your dog's execution better? - Julia Zaborowska
 - 31.01.2024-31.07.2024: Dogflix
 - 15.10.2024-20.10.2025: 11. edycja Psiej Akademii Ogarnij Go - Magdalena Łęczycka-Mrzygłód
 
-Zawody:
+**Zawody:**
 - 01.05.2022: Zawody Dog Games Spring 2022 Frizgility L1 - Miejsce 28/90 (110 pkt)
 - 24.07.2022: Zawody agility Letnie ProPsy A0 ML (2. i 3. miejsce)
 - 03.05.2025: Zawody Dog Games Spring 2025 Frizgility L1 - Miejsce 52/70 (88 pkt)
 
-Inne:
-- 05.09.2021: Poland Business Run - bieg na 4 km z Dundee
+**Inne:**
+- 05.09.2021: Poland Business Run - bieg na 4 km z Dundee    
+
+<br><center><img src="/images/cert/1.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/2.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/3.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/8.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/9.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/6.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/5.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/7.jpg" width="60%" height=auto></center>
+<br><center><img src="/images/cert/4.jpg" width="60%" height=auto></center>
+
+
+<!-- <div class="cert-gallery">
+  <figure>
+    <a href="#img1">
+      <img src="/images/cert/1.jpg" alt="Zdjęcie 1">
+    </a>
+  </figure>
+
+  <figure>
+    <a href="#img2">
+      <img src="/images/cert/2.jpg" alt="Zdjęcie 2">
+    </a>
+  </figure>
+
+  <div class="lightbox" id="img1">
+    <a href="#" class="close"></a>
+    <img src="/images/cert/1.jpg" alt="Zdjęcie 1">
+  </div>
+
+  <div class="lightbox" id="img2">
+    <a href="#" class="close"></a>
+    <img src="/images/cert/2.jpg" alt="Zdjęcie 2">
+  </div>
+</div> -->
+
+
 	

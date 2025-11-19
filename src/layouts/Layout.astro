@@ -12,8 +12,9 @@ const images = fm.images ?? [];
     <title>{title}</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script>
-      // Hamburger menu logic – działa tylko gdy strona jest już załadowana
+      // Hamburger menu logic – when site is loadeds
       document.addEventListener('DOMContentLoaded', function() {
         const burger = document.getElementById('hamburger-toggle');
         const navMenu = document.getElementById('main-nav-menu');
@@ -32,17 +33,21 @@ const images = fm.images ?? [];
         <span></span>
         <span></span>
       </button>
-      <!-- Menu linki -->
+      <!-- Menu links -->
       <div id="main-nav-menu" class="nav-menu">
         <a href="/">Strona główna</a>
         <a href="/o-mnie">O mnie</a>
         <a href="/uslugi">Usługi i cennik</a>
-        <a href="/galeria">Galeria zwierząt</a>
+        <a href="/galeria">Galeria</a>
         <a href="/regulamin">Regulamin</a>
         <a href="/kontakt">Kontakt</a>
       </div>
     </nav>
-    <div class="header-image"></div>
+
+    <div class="header-image">
+      <a href="/" aria-label="Przejdź do strony głównej"></a>
+    </div>
+
     <br><br>
 
     <main class="container">
@@ -65,7 +70,7 @@ const images = fm.images ?? [];
         <a href="https://www.facebook.com/przystanekdundee" class="fa fa-facebook"></a>&emsp;
         <a href="https://www.instagram.com/przystanek_dundee_petsitting" class="fa fa-instagram"></a>
         <br><br>
-        Website built by Sivoriel Design
+        Sivoriel Design
       </div>
     </footer>
     <br>

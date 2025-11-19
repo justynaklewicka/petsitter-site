@@ -1,6 +1,31 @@
 ---
 title: "Usługi"
 layout: ../layouts/Layout.astro
+images:
+  - src: "/images/dom/1.jpeg"
+  - src: "/images/dom/2.jpeg"
+  - src: "/images/dom/3.jpeg"
+  - src: "/images/dom/4.jpeg"
+  - src: "/images/dom/5.jpeg"
+  - src: "/images/dom/6.jpeg"
+  - src: "/images/dom/7.jpeg"
+  - src: "/images/dom/8.jpeg"
+  - src: "/images/dom/9.jpg"
+  - src: "/images/dom/10.jpeg"
+  - src: "/images/dom/11.jpeg"
+  - src: "/images/dom/12.jpeg"
+  - src: "/images/dom/13.jpeg"
+  - src: "/images/dom/14.jpg"
+  - src: "/images/dom/15.jpg"
+  - src: "/images/dom/s1.jpeg"
+  - src: "/images/dom/s2.jpeg"
+  - src: "/images/dom/s3.jpeg"
+  - src: "/images/dom/s4.jpeg"
+  - src: "/images/dom/s5.jpeg"
+  - src: "/images/dom/s6.jpg"
+  - src: "/images/dom/s7.jpg"
+  - src: "/images/dom/a1.jpg"
+  - src: "/images/dom/a2.jpg"
 ---
 
 # **Ceny opieki nad zwierzętami**  

@@ -4,6 +4,12 @@ layout: ../layouts/Layout.astro
 images:
   - src: "/images/tofik.jpg"
     caption: "Tofik"
+  - src: "/images/sandal.jpg"
+    caption: "Sandał"
+  - src: "/images/lily.jpg"
+    caption: "Lily"
+  - src: "/images/wena.jpg"
+    caption: "Wena"
   - src: "/images/dundee.jpg"
     caption: "Dundee"
   - src: "/images/nela.jpg"
@@ -29,7 +35,3 @@ images:
 ---
 
 # **Galeria zwierząt pod moją opieką:**
-<!-- <img src="/images/tofik.webp" width="30%" height="30%"> -->
-<!-- ![Tofik](/images/tofik.webp)
-![Dundee](/images/dundee.jpg)
- -->

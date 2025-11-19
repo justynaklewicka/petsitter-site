@@ -1,23 +1,29 @@
-/* --- PODSTAWY --- */
+
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  /* background: #5e3608;  */
   background: linear-gradient(to bottom, #5e3608 0%, #3a2105 100%);
   color: #333;
 }
 
-/* --- GRAFIKA --- */
 .header-image {
   width: 100%;
-  aspect-ratio: 21 / 9;
-  background-image: url("/images/header-bg.webp"); 
-  background-size: cover;
+  aspect-ratio: 2100 / 690; 
+  background-image: url("/images/header-bg.png");
+  background-size: contain;  
   background-position: center;
   background-repeat: no-repeat;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+
+.header-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; 
 }
 
 .main-nav {
@@ -27,7 +33,6 @@ body {
   left: 0;
   border-radius:30px;
   padding: 1em;
-  /* gap: 1em; */
   max-width: 80%;     
   margin: 0 auto;        
 
@@ -41,37 +46,32 @@ nav a {
   /* text-transform: uppercase; */
   font-size: 18px;
   letter-spacing: 1.5px;
-  /* text-align: center; */
   justify-content: center;
   margin: 0 auto;
 }
 
-/* .nav-menu { */
-  /* display: flex; */
-  /* gap: 1.5em; */
-  /* flex-wrap: wrap; */
-/* } */
-
-/* --- GŁÓWNA TREŚĆ --- */
-/* main { */
-  /* padding-top: 2.5em;  */
-  /* padding-bottom: 3em; */
-/* } */
-
-/* --- KONTENER TREŚCI (JASNY PAS) --- */
+/* --- BRIGHT BG --- */
 .container {
   max-width: 900px;
   margin: 0 auto;
   background: #dbc897; 
-  padding: 2em 2em 2em 2em;
-  /* box-shadow: 0 0 15px rgba(0,0,0,0.05); */
+  padding: 2em 2em 2em 2em; /* top right bottom left*/
   border-radius: 40px;
-  /* display: flex; */
-  /* position: sticky; */
-  /* top: 10px; */
 }
 
-/* --- STOPKA --- */
+.container p,
+.container li,
+.container h1,
+.container h2,
+.container h3 {
+  margin-left: 1em;  
+  margin-right: 1em;
+}
+
+.general_img {
+  border-radius: 2%;
+}
+
 footer {
   text-align: center;
   padding: 1em 0;
@@ -95,12 +95,14 @@ footer {
   }
 }
 
-/* --- GALERIA --- */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
+  margin-left: 1em; 
+  margin-right: 1em; 
 }
 
 .gallery figure {
@@ -125,7 +127,57 @@ footer {
 }
 
 
-/* Hamburger button styl */
+/*.cert-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 1em;
+}
+
+.cert-gallery figure {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.cert-gallery img {
+  width: 100%;
+  height: 220px; 
+  object-fit: cover; 
+  display: block;
+}
+
+.cert-gallery .lightbox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.cert-gallery .lightbox:target {
+  display: flex;
+}
+
+.cert-gallery .lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+.cert-gallery .lightbox .close {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+*/
+
+
+/* Hamburger button style */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -202,7 +254,7 @@ footer {
 	position: static; 
 	background: none; 
 	box-shadow: none; 
-	border-radius: 0; 
+	/*border-radius: 0; */
 	padding: 0;
   }
   .hamburger { 
@@ -241,7 +293,7 @@ footer {
   margin: auto;
 }
 
-/* Mobile: mniejszy odstęp od krawędzi */
+
 @media (max-width: 768px) {
   #scrollToTopBtn {
     right: 14px;
