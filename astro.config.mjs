@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   publicDir: './public',
+
   
   server: {
     host: true,        
@@ -16,4 +17,10 @@ export default defineConfig({
       },
     },
   },
+
+  build: {
+    outDir: 'dist', 
+  },
+
+  base: '/',  
 });
