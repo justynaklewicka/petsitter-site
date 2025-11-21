@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   publicDir: './public',
@@ -23,4 +24,7 @@ export default defineConfig({
   },
 
   base: '/',  
+
+  site: "https://przystanekdundee.vercel.app/",
+  integrations: [sitemap()],
 });
